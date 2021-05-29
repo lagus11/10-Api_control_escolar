@@ -27,7 +27,7 @@ const schema = new mongoose.Schema(
         create_date: {
             type: Date,
             required: true,
-            Date:Date.now()
+            default:Date.now()
         },
 
         controlnumber: {
